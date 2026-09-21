@@ -1,0 +1,17 @@
+# LaTeX build products
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+*.xdv
+/main.pdf
+/main-en.pdf
+/build/
+/dist/
+.DS_Store
+/output/

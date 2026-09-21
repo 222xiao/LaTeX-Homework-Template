@@ -1,0 +1,16 @@
+% Shared structure. Edit the selected contents file for your homework.
+\makehomeworktitle
+\ifhomeworktoc
+  \tableofcontents
+  \clearpage
+\fi
+\ifhomeworkchinese
+  \input{contents/homework-zh}
+\else
+  \input{contents/homework-en}
+\fi
+\FloatBarrier % Keep all assignment figures before the reference list.
+\bigskip
+\phantomsection
+\addcontentsline{toc}{section}{\refname}
+\bibliography{references}

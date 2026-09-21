@@ -1,0 +1,39 @@
+name: Compile homework templates
+on:
+  push:
+    paths:
+      - '**.tex'
+      - '**.cls'
+      - '**.bib'
+      - 'fonts/**'
+      - 'figures/**'
+      - 'cityu.png'
+      - '.latexmkrc'
+      - '.github/workflows/latex.yml'
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  compile:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install XeLaTeX and Chinese fonts
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends latexmk texlive-xetex texlive-lang-chinese texlive-latex-extra texlive-fonts-recommended tex-gyre
+      - name: Compile both entry points
+        run: latexmk -outdir=build main.tex main-en.tex
+      - name: Reject unresolved references and missing glyphs
+        run: |
+          if grep -Ei 'undefined references|Citation .* undefined|Reference .* undefined|Missing character:' build/main.log build/main-en.log; then
+            exit 1
+          fi
+      - uses: actions/upload-artifact@v4
+        with:
+          name: homework-pdfs
+          path: |
+            build/main.pdf
+            build/main-en.pdf
+          if-no-files-found: error
