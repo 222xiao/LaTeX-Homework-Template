@@ -27,7 +27,6 @@
 % this works consistently in TeX Live, MiKTeX, Overleaf, and Tectonic.
 \RequirePackage[margin=25mm,headheight=28pt,headsep=6mm]{geometry}
 \RequirePackage{graphicx}
-\RequirePackage[normalem]{ulem}
 \RequirePackage{amsmath,amssymb}
 \RequirePackage{booktabs,tabularx,array}
 \RequirePackage{enumitem}
@@ -144,7 +143,7 @@
       \vspace{18mm}
       {\fontsize{20}{25}\selectfont\bfseries\hw@assignment\par}
       \vspace{25mm}
-      {\fontsize{22}{28}\selectfont\itshape\uline{\hw@title}\par}
+      {\fontsize{22}{28}\selectfont\itshape\underline{\hw@title}\par}
       \vfill
       {\fontsize{16}{21}\selectfont\bfseries
         \begin{tabular}{c}
