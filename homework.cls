@@ -23,11 +23,8 @@
   BoldItalicFeatures={FakeSlant=0.15}]
 \setCJKsansfont{NotoSerifSC-Regular.ttf}[Path=fonts/,BoldFont=NotoSerifSC-Bold.ttf]
 \setCJKmonofont{NotoSerifSC-Regular.ttf}[Path=fonts/,BoldFont=NotoSerifSC-Bold.ttf]
-\setmainfont{texgyretermes}[Extension=.otf,UprightFont=*-regular,
-  BoldFont=*-bold,ItalicFont=*-italic,BoldItalicFont=*-bolditalic]
-\setsansfont{texgyreheros}[Extension=.otf,UprightFont=*-regular,
-  BoldFont=*-bold,ItalicFont=*-italic,BoldItalicFont=*-bolditalic]
-\setmonofont{lmmono10-regular.otf}[ItalicFont=lmmono10-italic.otf]
+% Keep LaTeX's default Latin fonts. Unlike loading TeX Gyre by filename,
+% this works consistently in TeX Live, MiKTeX, Overleaf, and Tectonic.
 \RequirePackage[margin=25mm,headheight=28pt,headsep=6mm]{geometry}
 \RequirePackage{graphicx}
 \RequirePackage[normalem]{ulem}

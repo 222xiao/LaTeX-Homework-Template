@@ -18,11 +18,11 @@ jobs:
   compile:
     runs-on: ubuntu-24.04
     steps:
-      - uses: actions/checkout@v4
-      - name: Install XeLaTeX and Chinese fonts
+      - uses: actions/checkout@v5
+      - name: Install LaTeX toolchain
         run: |
           sudo apt-get update
-          sudo apt-get install -y --no-install-recommends latexmk texlive-xetex texlive-lang-chinese texlive-latex-extra texlive-fonts-recommended tex-gyre
+          sudo apt-get install -y --no-install-recommends latexmk texlive-xetex texlive-lang-chinese texlive-latex-extra texlive-fonts-recommended
       - name: Compile both entry points
         run: latexmk -outdir=build main.tex main-en.tex
       - name: Reject unresolved references and missing glyphs
