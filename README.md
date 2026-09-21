@@ -7,15 +7,15 @@
 **A clean, ready-to-use XeLaTeX assignment template for Chinese and English coursework.**<br>
 **适用于中文、英文及中英混排课程作业的通用 XeLaTeX 模板。**
 
-[![Compile homework templates](https://github.com/222xiao/City-University-of-Macau_Homework-Project-Latex-Template/actions/workflows/latex.yml/badge.svg)](https://github.com/222xiao/City-University-of-Macau_Homework-Project-Latex-Template/actions/workflows/latex.yml)
+[![Compile homework templates](https://github.com/222xiao/LaTeX-Homework-Template/actions/workflows/latex.yml/badge.svg)](https://github.com/222xiao/LaTeX-Homework-Template/actions/workflows/latex.yml)
 ![XeLaTeX](https://img.shields.io/badge/engine-XeLaTeX-008080?logo=latex&logoColor=white)
 ![BibTeX](https://img.shields.io/badge/references-BibTeX-7A1FA2)
 ![Languages](https://img.shields.io/badge/languages-中文%20%7C%20English-246B5B)
 ![Overleaf](https://img.shields.io/badge/editor-Overleaf-47A141?logo=overleaf&logoColor=white)
 
-[**Open in Overleaf**](https://www.overleaf.com/docs?snip_uri=https%3A%2F%2Fgithub.com%2F222xiao%2FCity-University-of-Macau_Homework-Project-Latex-Template%2Farchive%2Frefs%2Fheads%2Fmain.zip)
+[**Open in Overleaf**](https://www.overleaf.com/docs?snip_uri=https%3A%2F%2Fgithub.com%2F222xiao%2FLaTeX-Homework-Template%2Farchive%2Frefs%2Fheads%2Fmain.zip)
 ·
-[**Download ZIP**](https://github.com/222xiao/City-University-of-Macau_Homework-Project-Latex-Template/archive/refs/heads/main.zip)
+[**Download ZIP**](https://github.com/222xiao/LaTeX-Homework-Template/archive/refs/heads/main.zip)
 ·
 [中文说明](#中文使用说明)
 ·
@@ -262,6 +262,6 @@ No. It changes template labels and selects the corresponding sample content. You
 
 ## Contributing · 参与改进
 
-Bug reports, formatting improvements, and additional citation-style examples are welcome through [GitHub Issues](https://github.com/222xiao/City-University-of-Macau_Homework-Project-Latex-Template/issues). If this template helps with your coursework, consider starring the repository so more students can find it.
+Bug reports, formatting improvements, and additional citation-style examples are welcome through [GitHub Issues](https://github.com/222xiao/LaTeX-Homework-Template/issues). If this template helps with your coursework, consider starring the repository so more students can find it.
 
 项目中的大学标识仅作为可替换的演示素材。使用其他学校的名称或校徽时，请遵守相应机构的品牌规范。
