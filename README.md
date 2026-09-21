@@ -7,7 +7,7 @@
 **A clean, ready-to-use XeLaTeX assignment template for Chinese and English coursework.**<br>
 **适用于中文、英文及中英混排课程作业的通用 XeLaTeX 模板。**
 
-[![Compile homework templates](https://github.com/222xiao/LaTeX-Homework-Template/actions/workflows/latex.yml/badge.svg)](https://github.com/222xiao/LaTeX-Homework-Template/actions/workflows/latex.yml)
+[![Compile homework templates](https://github.com/222xiao/LaTeX-Homework-Template/actions/workflows/latex.yml/badge.svg?branch=main&event=push)](https://github.com/222xiao/LaTeX-Homework-Template/actions/workflows/latex.yml?query=branch%3Amain+event%3Apush)
 ![XeLaTeX](https://img.shields.io/badge/engine-XeLaTeX-008080?logo=latex&logoColor=white)
 ![BibTeX](https://img.shields.io/badge/references-BibTeX-7A1FA2)
 ![Languages](https://img.shields.io/badge/languages-中文%20%7C%20English-246B5B)
